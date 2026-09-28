@@ -1,0 +1,11 @@
+6be2d1039819b51b7574f930998e4384 *DESCRIPTION
+66d8d0959fd76198fbba24dc0a3e0385 *NAMESPACE
+3a7af4dab246811c28b0f4baa4dc40f3 *NEWS.md
+23c31f6dc6410dd71d9169a8eacf569c *R/ROI.plugin.coinclp-package.R
+675017b0efd3e52188a1a8ac7b996a90 *R/plugin.R
+25265968b95afe68de8d0295eeb5905d *R/zzz.R
+1c3858f529bed5f079a0d19c9843348c *README.md
+8415f3fcb6e5256ffa12e55d1545430a *man/ROI.plugin.coinclp-package.Rd
+e0bd466cd39ffad31958f54554d0a49e *man/coinclp_solution.Rd
+da4f7e3e8060bbbc119b883ba277c94e *man/solve_OP.Rd
+e00e38c32f6cdac46f9e4cbb58d74ace *tests/test-lp.R
