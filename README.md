@@ -49,7 +49,8 @@ solution(res, "msg")     # the full coinclp result, including iterations
 ```
 
 Constraints held as a `simple_triplet_matrix`, which is how ROI stores them,
-go to Clp in sparse form — nothing is densified on the way.
+go to Clp as sparse: only the non-zero entries are passed, and the matrix is
+never expanded into a full grid of mostly zeros on the way.
 
 ## Controls
 
@@ -82,6 +83,10 @@ changing the solver name.
 
 ## Licence
 
-Eclipse Public License, matching COIN-OR and the original plugin. The code
-is independent of ROI.plugin.clp by Benoit Thieurmel (datastorm-open), whose
-control names are kept for compatibility.
+GPL-3, matching `ROI` itself and the other ROI plugins. This package contains
+no COIN-OR code; it imports `ROI` (GPL-3) and `slam` (GPL-2), so a GPL licence
+is the one that fits. The solver library it reaches is wrapped by
+[coinclp](https://github.com/SamLovick/coinclp), which is MIT.
+
+The code is independent of ROI.plugin.clp by Benoit Thieurmel
+(datastorm-open), whose control names are kept for compatibility.
